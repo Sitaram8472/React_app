@@ -1,38 +1,35 @@
 import "./App.css";
 import Title from "./Title.jsx";
 import ProductTab from "./ProductTab.jsx";
+import Fragment from "./Fragment.jsx";
+import PropsStore from "./PropsStore.jsx";
 
-// function Name() {
-//   return <p>my name is Sitaram kr</p>;
-// }
-
-// function App() {
-//   return (
-//     <div id="main">
-//       <Title />
-//       <p>Hello guys</p>
-//       <Name />
-//       <h1>Hello</h1>
-//     </div>
-
-//   );
-// }
-
-// function App() {
-//   return (
-//     <>
-//       <Title />
-//       <p>Hello guys</p>
-//       <Name />
-//       <h1>Hello</h1>
-//     </>
-//   );
-// }
+function Name() {
+  return <p>my name is React</p>;
+}
 
 function App() {
   return (
     <div id="main">
-      <ProductTab/>
+      <div>
+        <Title />
+        <p>Hello guys</p>
+        <Name />
+        <h1>Hello</h1>
+      </div>
+
+      <div>
+        <Fragment />
+      </div>
+
+      <div>
+        <ProductTab />
+      </div>
+
+      <div>
+        <PropsStore />
+      </div>
+      
     </div>
   );
 }

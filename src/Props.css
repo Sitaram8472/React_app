@@ -1,0 +1,11 @@
+.Props{
+  height: 200px;
+  width: 200px;
+  margin-top: 5px;
+  /* padding-top: 5px; */
+  background-color: blueviolet;
+  font-size: 20px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
