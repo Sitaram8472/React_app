@@ -6,6 +6,8 @@ import PropsStore from "./PropsStore.jsx";
 import ChildComponent from "./Arrayprops.jsx";
 import ChildComponentprops from "./Objectprops.jsx";
 import Greeting from "./conditional.jsx";
+import Activity from "./Activity.jsx";
+import AmazonCard from "./component/AmazonCard.jsx";
 
 function Name() {
   return <p>my name is React</p>;
@@ -49,9 +51,19 @@ function App() {
       </div>
 
       <div>
-        <Greeting isLoggedIn={false}/>
+        <Greeting isLoggedIn={false} />
       </div>
 
+      <div>
+        <Activity username="Sitaram" textcolor="yellow" />
+        <Activity username="Sitaram" textcolor="blue" />
+        <Activity username="Sitaram" textcolor="green" />
+      </div>
+
+      <div>
+        <h2>BluckBuster Deals Shop now</h2>
+        <AmazonCard />
+      </div>
     </div>
   );
 }

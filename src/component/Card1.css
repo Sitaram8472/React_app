@@ -1,0 +1,18 @@
+.Card1{
+ height: 200px;
+ width: 200px;
+ background-color: aqua;
+ border: 2px solid black;
+ margin: 5px;
+}
+.Price{
+  margin-top: 40px;
+  color: ghostwhite;
+  background-color: rgb(142, 142, 39);
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
